@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B4BAE9D3BD203C431819275 /* Pods_attendanceSmartlyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D6ECB0EB36E0E8F8E6E5E5 /* Pods_attendanceSmartlyTests.framework */; };
+		5AB081F7B8953863C45DED06 /* Pods_attendanceSmartly_attendanceSmartlyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71FFFECB68716DD7D3DDEA2D /* Pods_attendanceSmartly_attendanceSmartlyUITests.framework */; };
+		658406CD2E7463EDCAE5221B /* Pods_attendanceSmartly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48251B499278EFA01CF3FDB2 /* Pods_attendanceSmartly.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6CFFA7A2CF9079A00265393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6CFFA5B2CF9079900265393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6CFFA622CF9079900265393;
+			remoteInfo = attendanceSmartly;
+		};
+		E6CFFA842CF9079A00265393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6CFFA5B2CF9079900265393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6CFFA622CF9079900265393;
+			remoteInfo = attendanceSmartly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DAE8CB4647FC193F4C147D1 /* Pods-attendanceSmartly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-attendanceSmartly.debug.xcconfig"; path = "Target Support Files/Pods-attendanceSmartly/Pods-attendanceSmartly.debug.xcconfig"; sourceTree = "<group>"; };
+		2FA0569795745C6D37153069 /* Pods-attendanceSmartlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-attendanceSmartlyTests.release.xcconfig"; path = "Target Support Files/Pods-attendanceSmartlyTests/Pods-attendanceSmartlyTests.release.xcconfig"; sourceTree = "<group>"; };
+		48251B499278EFA01CF3FDB2 /* Pods_attendanceSmartly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_attendanceSmartly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB73D6CEC08BBBBF6E5B512 /* Pods-attendanceSmartly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-attendanceSmartly.release.xcconfig"; path = "Target Support Files/Pods-attendanceSmartly/Pods-attendanceSmartly.release.xcconfig"; sourceTree = "<group>"; };
+		71FFFECB68716DD7D3DDEA2D /* Pods_attendanceSmartly_attendanceSmartlyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_attendanceSmartly_attendanceSmartlyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D6ECB0EB36E0E8F8E6E5E5 /* Pods_attendanceSmartlyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_attendanceSmartlyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C14439104B7C202CF0DC8C /* Pods-attendanceSmartly-attendanceSmartlyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-attendanceSmartly-attendanceSmartlyUITests.debug.xcconfig"; path = "Target Support Files/Pods-attendanceSmartly-attendanceSmartlyUITests/Pods-attendanceSmartly-attendanceSmartlyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3737BF392EB2D9115C00D66 /* Pods-attendanceSmartly-attendanceSmartlyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-attendanceSmartly-attendanceSmartlyUITests.release.xcconfig"; path = "Target Support Files/Pods-attendanceSmartly-attendanceSmartlyUITests/Pods-attendanceSmartly-attendanceSmartlyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E6CFFA632CF9079900265393 /* attendanceSmartly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = attendanceSmartly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CFFA792CF9079A00265393 /* attendanceSmartlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = attendanceSmartlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CFFA832CF9079A00265393 /* attendanceSmartlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = attendanceSmartlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF80CC5DB011360413738EC6 /* Pods-attendanceSmartlyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-attendanceSmartlyTests.debug.xcconfig"; path = "Target Support Files/Pods-attendanceSmartlyTests/Pods-attendanceSmartlyTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E6CFFA8B2CF9079A00265393 /* Exceptions for "attendanceSmartly" folder in "attendanceSmartly" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E6CFFA622CF9079900265393 /* attendanceSmartly */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E6CFFA652CF9079900265393 /* attendanceSmartly */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E6CFFA8B2CF9079A00265393 /* Exceptions for "attendanceSmartly" folder in "attendanceSmartly" target */,
+			);
+			path = attendanceSmartly;
+			sourceTree = "<group>";
+		};
+		E6CFFA7C2CF9079A00265393 /* attendanceSmartlyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = attendanceSmartlyTests;
+			sourceTree = "<group>";
+		};
+		E6CFFA862CF9079A00265393 /* attendanceSmartlyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = attendanceSmartlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6CFFA602CF9079900265393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658406CD2E7463EDCAE5221B /* Pods_attendanceSmartly.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CFFA762CF9079A00265393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4BAE9D3BD203C431819275 /* Pods_attendanceSmartlyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CFFA802CF9079A00265393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB081F7B8953863C45DED06 /* Pods_attendanceSmartly_attendanceSmartlyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA382E9B7E8AB57431ECE93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48251B499278EFA01CF3FDB2 /* Pods_attendanceSmartly.framework */,
+				71FFFECB68716DD7D3DDEA2D /* Pods_attendanceSmartly_attendanceSmartlyUITests.framework */,
+				C1D6ECB0EB36E0E8F8E6E5E5 /* Pods_attendanceSmartlyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A111F5AE9E11D9949BEB4ED4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DAE8CB4647FC193F4C147D1 /* Pods-attendanceSmartly.debug.xcconfig */,
+				6CB73D6CEC08BBBBF6E5B512 /* Pods-attendanceSmartly.release.xcconfig */,
+				C4C14439104B7C202CF0DC8C /* Pods-attendanceSmartly-attendanceSmartlyUITests.debug.xcconfig */,
+				D3737BF392EB2D9115C00D66 /* Pods-attendanceSmartly-attendanceSmartlyUITests.release.xcconfig */,
+				EF80CC5DB011360413738EC6 /* Pods-attendanceSmartlyTests.debug.xcconfig */,
+				2FA0569795745C6D37153069 /* Pods-attendanceSmartlyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6CFFA5A2CF9079900265393 = {
+			isa = PBXGroup;
+			children = (
+				E6CFFA652CF9079900265393 /* attendanceSmartly */,
+				E6CFFA7C2CF9079A00265393 /* attendanceSmartlyTests */,
+				E6CFFA862CF9079A00265393 /* attendanceSmartlyUITests */,
+				E6CFFA642CF9079900265393 /* Products */,
+				A111F5AE9E11D9949BEB4ED4 /* Pods */,
+				2BA382E9B7E8AB57431ECE93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6CFFA642CF9079900265393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6CFFA632CF9079900265393 /* attendanceSmartly.app */,
+				E6CFFA792CF9079A00265393 /* attendanceSmartlyTests.xctest */,
+				E6CFFA832CF9079A00265393 /* attendanceSmartlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6CFFA622CF9079900265393 /* attendanceSmartly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6CFFA8C2CF9079A00265393 /* Build configuration list for PBXNativeTarget "attendanceSmartly" */;
+			buildPhases = (
+				54B3BE0533B610324480D8E2 /* [CP] Check Pods Manifest.lock */,
+				E6CFFA5F2CF9079900265393 /* Sources */,
+				E6CFFA602CF9079900265393 /* Frameworks */,
+				E6CFFA612CF9079900265393 /* Resources */,
+				5DEA136550907CF971BD3974 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E6CFFA652CF9079900265393 /* attendanceSmartly */,
+			);
+			name = attendanceSmartly;
+			productName = attendanceSmartly;
+			productReference = E6CFFA632CF9079900265393 /* attendanceSmartly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6CFFA782CF9079A00265393 /* attendanceSmartlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6CFFA912CF9079A00265393 /* Build configuration list for PBXNativeTarget "attendanceSmartlyTests" */;
+			buildPhases = (
+				E4B73E6AB77A8191E23B6AAD /* [CP] Check Pods Manifest.lock */,
+				E6CFFA752CF9079A00265393 /* Sources */,
+				E6CFFA762CF9079A00265393 /* Frameworks */,
+				E6CFFA772CF9079A00265393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6CFFA7B2CF9079A00265393 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E6CFFA7C2CF9079A00265393 /* attendanceSmartlyTests */,
+			);
+			name = attendanceSmartlyTests;
+			productName = attendanceSmartlyTests;
+			productReference = E6CFFA792CF9079A00265393 /* attendanceSmartlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6CFFA822CF9079A00265393 /* attendanceSmartlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6CFFA942CF9079A00265393 /* Build configuration list for PBXNativeTarget "attendanceSmartlyUITests" */;
+			buildPhases = (
+				731A70F323D9A83A23F74088 /* [CP] Check Pods Manifest.lock */,
+				E6CFFA7F2CF9079A00265393 /* Sources */,
+				E6CFFA802CF9079A00265393 /* Frameworks */,
+				E6CFFA812CF9079A00265393 /* Resources */,
+				7B945D80ADCC099747AACF4F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6CFFA852CF9079A00265393 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E6CFFA862CF9079A00265393 /* attendanceSmartlyUITests */,
+			);
+			name = attendanceSmartlyUITests;
+			productName = attendanceSmartlyUITests;
+			productReference = E6CFFA832CF9079A00265393 /* attendanceSmartlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6CFFA5B2CF9079900265393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E6CFFA622CF9079900265393 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E6CFFA782CF9079A00265393 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E6CFFA622CF9079900265393;
+					};
+					E6CFFA822CF9079A00265393 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E6CFFA622CF9079900265393;
+					};
+				};
+			};
+			buildConfigurationList = E6CFFA5E2CF9079900265393 /* Build configuration list for PBXProject "attendanceSmartly" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6CFFA5A2CF9079900265393;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E6CFFA642CF9079900265393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6CFFA622CF9079900265393 /* attendanceSmartly */,
+				E6CFFA782CF9079A00265393 /* attendanceSmartlyTests */,
+				E6CFFA822CF9079A00265393 /* attendanceSmartlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6CFFA612CF9079900265393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CFFA772CF9079A00265393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CFFA812CF9079A00265393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54B3BE0533B610324480D8E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-attendanceSmartly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DEA136550907CF971BD3974 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-attendanceSmartly/Pods-attendanceSmartly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-attendanceSmartly/Pods-attendanceSmartly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-attendanceSmartly/Pods-attendanceSmartly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		731A70F323D9A83A23F74088 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-attendanceSmartly-attendanceSmartlyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B945D80ADCC099747AACF4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-attendanceSmartly-attendanceSmartlyUITests/Pods-attendanceSmartly-attendanceSmartlyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-attendanceSmartly-attendanceSmartlyUITests/Pods-attendanceSmartly-attendanceSmartlyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-attendanceSmartly-attendanceSmartlyUITests/Pods-attendanceSmartly-attendanceSmartlyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4B73E6AB77A8191E23B6AAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-attendanceSmartlyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6CFFA5F2CF9079900265393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CFFA752CF9079A00265393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CFFA7F2CF9079A00265393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6CFFA7B2CF9079A00265393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6CFFA622CF9079900265393 /* attendanceSmartly */;
+			targetProxy = E6CFFA7A2CF9079A00265393 /* PBXContainerItemProxy */;
+		};
+		E6CFFA852CF9079A00265393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6CFFA622CF9079900265393 /* attendanceSmartly */;
+			targetProxy = E6CFFA842CF9079A00265393 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E6CFFA8D2CF9079A00265393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DAE8CB4647FC193F4C147D1 /* Pods-attendanceSmartly.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = attendanceSmartly/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app need your location to provide best feature based on location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app need your location to provide best feature based on location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nisa.attendanceSmartly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6CFFA8E2CF9079A00265393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB73D6CEC08BBBBF6E5B512 /* Pods-attendanceSmartly.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = attendanceSmartly/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app need your location to provide best feature based on location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app need your location to provide best feature based on location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nisa.attendanceSmartly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6CFFA8F2CF9079A00265393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6CFFA902CF9079A00265393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6CFFA922CF9079A00265393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF80CC5DB011360413738EC6 /* Pods-attendanceSmartlyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nisa.attendanceSmartlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/attendanceSmartly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/attendanceSmartly";
+			};
+			name = Debug;
+		};
+		E6CFFA932CF9079A00265393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA0569795745C6D37153069 /* Pods-attendanceSmartlyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nisa.attendanceSmartlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/attendanceSmartly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/attendanceSmartly";
+			};
+			name = Release;
+		};
+		E6CFFA952CF9079A00265393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C14439104B7C202CF0DC8C /* Pods-attendanceSmartly-attendanceSmartlyUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nisa.attendanceSmartlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = attendanceSmartly;
+			};
+			name = Debug;
+		};
+		E6CFFA962CF9079A00265393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3737BF392EB2D9115C00D66 /* Pods-attendanceSmartly-attendanceSmartlyUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nisa.attendanceSmartlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = attendanceSmartly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6CFFA5E2CF9079900265393 /* Build configuration list for PBXProject "attendanceSmartly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CFFA8F2CF9079A00265393 /* Debug */,
+				E6CFFA902CF9079A00265393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6CFFA8C2CF9079A00265393 /* Build configuration list for PBXNativeTarget "attendanceSmartly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CFFA8D2CF9079A00265393 /* Debug */,
+				E6CFFA8E2CF9079A00265393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6CFFA912CF9079A00265393 /* Build configuration list for PBXNativeTarget "attendanceSmartlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CFFA922CF9079A00265393 /* Debug */,
+				E6CFFA932CF9079A00265393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6CFFA942CF9079A00265393 /* Build configuration list for PBXNativeTarget "attendanceSmartlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CFFA952CF9079A00265393 /* Debug */,
+				E6CFFA962CF9079A00265393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6CFFA5B2CF9079900265393 /* Project object */;
+}

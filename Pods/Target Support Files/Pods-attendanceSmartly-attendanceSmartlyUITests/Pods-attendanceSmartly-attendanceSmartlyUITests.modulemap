@@ -1,0 +1,6 @@
+framework module Pods_attendanceSmartly_attendanceSmartlyUITests {
+  umbrella header "Pods-attendanceSmartly-attendanceSmartlyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
